@@ -1,0 +1,112 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "smart recipes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "requestRecipe",
+          "slots": [
+            {
+              "name": "recipe",
+              "type": "recipe"
+            }
+          ],
+          "samples": [
+            "send me a recipe for {recipe}",
+            "send me {recipe}"
+          ]
+        },
+        {
+          "name": "requestMeal",
+          "slots": [
+            {
+              "name": "meal",
+              "type": "meal"
+            }
+          ],
+          "samples": [
+            "whats for {meal}",
+            "what {meal} recipes are there",
+            "what can i make for {meal}"
+          ]
+        },
+        {
+          "name": "requestAllRecipes",
+          "slots": [],
+          "samples": [
+            "list all recipes",
+            "What recipes are there"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dinner"
+              }
+            },
+            {
+              "name": {
+                "value": "lunch"
+              }
+            },
+            {
+              "name": {
+                "value": "breakfast"
+              }
+            }
+          ],
+          "name": "meal"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "steak and eggs"
+              }
+            },
+            {
+              "name": {
+                "value": "ham sandwich"
+              }
+            },
+            {
+              "name": {
+                "value": "buttered toast"
+              }
+            },
+            {
+              "name": {
+                "value": "bacon and eggs"
+              }
+            }
+          ],
+          "name": "recipe"
+        }
+      ]
+    }
+  },
+  "version": "28"
+}
