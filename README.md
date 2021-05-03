@@ -1,5 +1,6 @@
 # final-project
-
+Demo: http://tinyurl.com/smartRecipesFullDemo
+Voice demo: https://tinyurl.com/4zxdpvk
 
 Hello, My name is john Bonanno
 For my final project I’ve created a smart – assistant style Alexa Skill called smart recipes
@@ -21,5 +22,7 @@ I decided to host my recipes that I designed in the S3 Cloud, a service provided
 Configuring the S3 was far easier than configuring the permissions than for the sendEmail() function, because Amazon places some safety measures to ensure you aren’t sending unsolicited emails. 
 
 The final step I took in my project, was to do some error handling. If the recipe requested wasn’t available in the list of recipes, or an ingredient was missing required for the recipe, Alexa would then let me know. 
+
+
 
 
