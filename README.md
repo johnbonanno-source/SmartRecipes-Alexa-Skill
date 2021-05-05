@@ -2,7 +2,8 @@
 Demo: http://tinyurl.com/smartRecipesFullDemo
 
 
-Voice demo: https://tinyurl.com/4zxdpvk
+Voice demo: https://youtu.be/UcRMIGT_YPc
+
 
 Hello, My name is john Bonanno
 For my final project I’ve created a smart – assistant style Alexa Skill called smart recipes
