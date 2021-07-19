@@ -23,8 +23,6 @@ At this point, I had about 9 days left before the code freeze, and quickly sorte
 
 I decided to host my recipes that I designed in the S3 Cloud, a service provided by AWS. As I was in a time crunch, I thought that simply providing the link of the desired recipe to the sendEmail function I had created in my lambda, was the Quickest, albeit one of the dirtiest ways I could get my recipes to pop up in my own inbox. If I had had more time, I would have worked to embed the images into the email’s I sent, and also create a complementary application where the Ingredients in the inventory could be managed. 
 
-Configuring the S3 was far easier than configuring the permissions than for the sendEmail() function, because Amazon places some safety measures to ensure you aren’t sending unsolicited emails. 
-
 The final step I took in my project, was to do some error handling. If the recipe requested wasn’t available in the list of recipes, or an ingredient was missing required for the recipe, Alexa would then let me know. 
 
 
