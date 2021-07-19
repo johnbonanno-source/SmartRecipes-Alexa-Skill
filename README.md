@@ -7,7 +7,7 @@ Voice demo: https://youtu.be/UcRMIGT_YPc
 
 
 Hello, My name is john Bonanno
-For my final project I’ve created a smart – assistant style Alexa Skill called smart recipes
+I’ve created a smart – assistant style Alexa Skill called smart recipes.
 
 I wanted to create a Alexa skill that could help me decide on the next meal I would make, that also could able to send me that recipe that I had decided on.
 
