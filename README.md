@@ -1,6 +1,7 @@
 # final-project
 Demo: http://tinyurl.com/smartRecipesFullDemo
 
+Medium article on how to use alexa skill to send a email,by me: https://pamphl3t.medium.com/send-a-email-from-your-alexa-with-aws-ses-176a81515680
 
 Voice demo: https://youtu.be/UcRMIGT_YPc
 
